@@ -1,0 +1,200 @@
+/* TESTIMONIALS PAGE STYLING */
+/* ---------------------------------- */
+.testimonials {
+	padding: 6rem 2rem;
+}
+.testimonials h2 {
+	font-size: 4rem;
+	color: rgb(1, 99, 1);
+	text-align: center;
+}
+.testimonials > p {
+	font-size: 1.8rem;
+	font-weight: 100;
+	text-align: center;
+}
+.customers {
+	padding: 4rem 0;
+	display: flex;
+	align-items: center;
+	gap: 3rem;
+}
+.testimony{
+	width: 50%;
+  height: 180px;
+	padding: 2rem;
+  background: rgb(1, 99, 1);
+  color: #fff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.testimony h3{
+  font-size: 2.5rem;
+}
+.testimony p{
+  justify-items: flex-end;
+  align-self: flex-end;
+  font-size: 2rem;
+  font-style: italic;
+
+}
+
+.contactSection {
+	display: flex;
+  border-radius: 10px;
+	padding: 0 0rem;
+  margin-bottom: 10rem;
+}
+.contactForm {
+  flex: 1;
+  border-left: none;
+  padding: 5rem 0;
+}
+form{
+  width: 80%;
+  margin: 0 auto;
+  font-size: 1.8rem;
+}
+.formControl{
+  width: 100%;
+}
+.formControl label{
+  font-weight: 600;
+  color: rgb(1, 99, 1);
+}
+.formControl input,
+.formControl textarea{
+  display: block;
+  width: 70%;
+  margin-bottom: 1.5rem;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 1rem;
+  font-size: 1.6rem;
+  font-family: 'Roboto Slab', serif;
+}
+.formControl textarea{
+  width: 100%;
+}
+.formControl input:focus,
+.formControl textarea:focus{
+  outline: none;
+  border-color: rgb(1, 99, 1);
+}
+form .button{
+  width: 35%;
+  border: 2px solid;
+  text-align: center;
+  font-size: 1.8rem;
+  padding: 2rem;
+}
+
+.contactDetails{
+  flex: 1;
+	display: flex;
+	flex-direction: column;
+  color: #fff;
+  padding: 2rem 0;
+  border-radius: 10px;
+  background: rgb(1, 99, 1);
+}
+.contactDetails h2 {
+  font-size: 4rem;
+  text-align: center;
+  color: #fff;
+}
+.contactDetailsText{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 5rem;
+}
+.contactDetailsText p{
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+.contactDetailsText p a{
+  background-color: #fff;
+  padding: .8rem;
+  border-radius: 10px;
+  color: rgb(1, 99, 1);
+}
+
+@media(max-width: 780px) {
+  .customers {
+    flex-direction: column;
+	  gap: 5rem;
+  }
+  .testimony{
+	  width: 90%;
+  }
+  .contactSection{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .contactForm {
+  flex: 1;
+  border-left: none;
+  padding: 5rem 0;
+}
+  .contactDetails{
+    width: 100%;
+    padding: 5rem 0;
+    border-radius: 0px;
+  }
+  .contactDetails h2 {
+    font-size: 3rem;
+  }
+  .testimonials h2 {
+	  font-size: 3rem;
+  }
+  .contactDetailsText p{
+    font-size: 2rem;
+  }
+  .testimony p{
+    font-size: 1.8rem;
+  }
+  .testimony h3{
+    font-size: 2rem;
+  }
+}
+
+@media(max-width: 540px){
+  .testimony{
+	  width: 99%;
+  }
+  .testimony p{
+    font-size: 1.6rem;
+  }
+  .testimony h3{
+    font-size: 1.8rem;
+  }
+  .contactDetails{
+    width: 100%;
+  }
+  .contactDetailsText p{
+    font-size: 1.7rem;
+  }
+  .contactDetails h2 {
+    font-size: 2.5rem;
+  }
+  .testimonials h2 {
+	  font-size: 2.5rem;
+  }
+  .contactDetailsText p a{
+    margin-top: 50px;
+    padding: .2rem;
+
+  }
+  form{
+    width: 100%;
+    padding: 0rem 2rem;
+  }
+  form .button{
+    width: 45%;
+    font-size: 1.6rem;
+    padding: 2rem 1.5rem;
+  }
+}
