@@ -115,7 +115,7 @@ form .button{
   font-size: 3rem;
   margin-bottom: 2rem;
 }
-.contactDetailsText p a{
+.tel-link{
   background-color: #fff;
   padding: .8rem;
   border-radius: 10px;

@@ -142,6 +142,7 @@ footer a {
   }
   nav .openMenu{
     display: block;
+		align-self: center;
   }
   nav .mainMenu li a:hover{
     background: none;
@@ -156,5 +157,9 @@ footer a {
 	nav{
 		padding: 2rem 1rem;
 		width: 100%;
+	}
+	.openMenu{
+		align-items: center;
+		align-self: center;
 	}
 }
