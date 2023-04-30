@@ -17,8 +17,6 @@
   <div class="container">
     <nav>
       <div class="logo">
-        <!-- <img src="floristImages/AdobeStock_199288513-min.jpeg" alt="Busy Bee Florist Logo"> -->
-        <!-- <img src="floristImages/Flower Shop.png" alt="Busy Bee Florist Logo"> -->
         <img src="floristImages/floristLogo.png" alt="Busy Bee Florist Logo">
       </div>
       <div class="openMenu"> <i class="fa fa-bars"> </i> </div>
@@ -51,7 +49,7 @@
   
       <section class="contactSection">
         <div class="contactForm">
-          <form>
+          <form onsubmit="submitForm()">
             <div class="formControl">
               <label for="name"> Name: </label>
               <input type="text" name="name" id="name" autocomplete="off" required>
@@ -68,11 +66,11 @@
             </div>
   
             <div class="formControl">
-              <label for=""> Any Special Features? </label>
+              <label for=""> Any Special Features or Message </label>
               <textarea name="specialFeatures" id="specialFeatures" cols="30" rows="10" autocomplete="off"></textarea>
             </div>
   
-            <button class="button" onclick="submitForm()"> ORDER NOW</button>
+            <button class="button"> ORDER NOW</button>
           </form>
         </div>
         
@@ -82,7 +80,7 @@
             <p> Phone: <a href="tel:+0747791243" class="tel-link"> 07 4779 1243</a> </p> 
             <p>Fax: <span class="tel-link"> 07 4779 1244 </span> </p> 
             <p>Address: <span class="tel-link"> 223 Bolsover St in Cairville, Queensland </span> </p>
-            <p> Email: <a href="mailto:busybeeflorist@busybeemail.com.au"> busybeeflorist@busybeemail.com.au </a> </p> 
+            <p> Email: <a href="mailto:busybeeflorist@busybeemail.com.au" class="tel-link"> busybeeflorist@busybeemail.com.au </a> </p> 
           </div>
         </div>
       </section>

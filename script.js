@@ -17,7 +17,15 @@ function close() {
   mainMenu.style.top = '-100%';
 }
 function submitForm() {
-  alert('Hello World')
+  // if (inputName.value || inputEmail.value == null) {
+  //   alert('PLEASE INPUT A NAME AND A VALID EMAIL ADDRESS')
+  //   console.log(inputName.value)
+  //   console.log(inputEmail.value)
+  // }
+
+  if (inputName.value && inputEmail.value && flowerName !== null) {
+		alert(`THANKS FOR CONTACTING BUSY BEE \n We are currently busy with your order and will get back to you soon`);
+  }
 }
 
 
